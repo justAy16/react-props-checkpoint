@@ -7,7 +7,7 @@ const Player = ({ name, team, nationality, jerseyNumber, age, imageUrl }) => {
 
 // made use of inline styling
     return (
-      <Card style={{width:'15rem', backgroundColor:'#D9CA13', marginTop:'5rem',paddingTop:'1rem', boxShadow:'5px 5px 18px 15px rgba(0, 0, 0, 0.3)'}}>
+      <Card style={{width:'15rem', backgroundColor:'#D9CA13', marginTop:'5rem',paddingTop:'1rem', boxShadow:'5px 5px 18px 15px rgba(0, 0, 0, 0.5)'}}>
         <Card.Img variant="top" style={{margin: 'auto',display: 'block',width:'11rem', height:'11rem', borderRadius:'50%', backgroundColor:'#A99E1C'}} src={imageUrl} alt={`${name} image`} />
         <Card.Body>
           <Card.Title style={{textAlign:'center'}}><b>{name}</b></Card.Title>
